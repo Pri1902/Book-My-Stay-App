@@ -24,7 +24,7 @@ public class BookMyStay {
         }
     }
 
-    // ✅ Make subclasses static
+    //  Make subclasses static
     static class SingleRoom extends Room {
         public SingleRoom() {
             super(1, 250, 1500.0);
